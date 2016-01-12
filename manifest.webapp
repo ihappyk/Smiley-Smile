@@ -1,0 +1,26 @@
+{
+  "name": "Smiley Smile",
+  "description": "Try To Save the Smiley from the Cherry's That Slide Down From The Sky...",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "icons": {
+    "128":"/icons/p-128.png",
+    "64": "/icons/p-64.png",
+    "60": "/icons/p-60.png",
+    "48": "/icons/p-48.png",
+    "32": "/icons/p-32.png",
+    "30": "/icons/p-30.png",
+    "16": "/icons/p-16.png"
+  },
+  "developer": {
+    "name": "SanThosh K",
+    "url":  "https://facebook.com/sanThoshksannu"
+  },
+  "default_locale": "en",
+  "orientation": ["portrait-primary"],
+  "fullscreen": "true",
+  "screen_size": {
+      "max_width": "320",
+      "max_height": "480"
+    }
+}

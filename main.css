@@ -1,0 +1,44 @@
+body {
+	background:#6dd0f7;
+}
+
+
+#canvasBg{
+	margin:0px;
+	display:block;
+}
+
+#canvasSmiley{
+	
+	display:block;
+	margin-top:-420px ;
+}
+ 
+#canvasHigh{
+	animation-duration: 2s;
+	animation-name: fadeout;
+	display:block;
+	margin-top:-420px ;
+}
+
+#canvasEnd{
+	margin:0px;
+	display:block;
+    background-color: #6dd0f7;
+}
+#canvasEnemy {
+	display:block;
+	margin-top:-420px ;
+}
+
+@keyframes fadeout {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
